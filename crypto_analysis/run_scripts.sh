@@ -15,6 +15,10 @@ if python3 get_tickers.py ; then
         else
             echo "failed sending email :("
         fi
+        echo "uploading to Google Cloud Storage"
+        # only if you have permission ;)
+        gsutil cp images/most_mentioned_picks_recent.png gs://reddit-analysis-812/crypto/
+        gsutil cp images/sentiment_analysis_recent.png gs://reddit-analysis-812/crypto/
     else
         echo "failed reddit_sentiment_analysis :("
     fi
