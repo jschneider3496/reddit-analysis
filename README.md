@@ -1,5 +1,5 @@
 # reddit-analysis
-See Bitcamp 2021 submission for information: https://devpost.com/software/reddit-crypto-analysis. Project hosted [here](https://jschneider3496.github.io/reddit-analysis/webpage/index.html)
+See Bitcamp 2021 submission for information: https://devpost.com/software/reddit-crypto-analysis. Project hosted [here](https://jschneider3496.github.io/reddit-analysis/webpage/index.html).
 
 ## How to use
 
