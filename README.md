@@ -25,3 +25,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ./run_scripts.sh
 ```
+
+### Automation
+If on Raspberry Pi (or other Unix-like computers), create a time-based job to run the script periodically with cron.
+* [Cron Raspberry Pi tutorial](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
+* ```0 * * * * /path/to/reddit-analysis/crypto_analysis/run_scripts.sh```
